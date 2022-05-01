@@ -1,0 +1,34 @@
+{
+    "name": "karbagh/laravel-translate",
+    "description": "Laravel translation package working with database.",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "keywords": [
+        "karbagh",
+        "laravel",
+        "laravel-translate",
+        "translate"
+    ],
+    "authors": [
+        {
+            "name": "User",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "php": ">7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Karbagh\\LaravelTranslate\\Providers\\TranslationServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Karbagh\\LaravelTranslate\\": "src/"
+        }
+    }
+}
